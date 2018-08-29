@@ -16,7 +16,8 @@ export default class App extends React.Component {
       const result = await Expo.Google.logInAsync({
         androidClientId:
           "833456763323-ig9ndr0tbvb62jv4ddn6j8pos3a49m35.apps.googleusercontent.com",
-        //iosClientId: YOUR_CLIENT_ID_HERE,  <-- if you use iOS
+        iosClientId: 
+          "277520578823-r3sbgdr386r5vu40onchlb5p2vcistof.apps.googleusercontent.com", //YOUR_CLIENT_ID_HERE,  <-- if you use iOS
         scopes: ["profile", "email"]
       })
 
